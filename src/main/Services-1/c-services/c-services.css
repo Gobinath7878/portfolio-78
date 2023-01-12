@@ -1,0 +1,154 @@
+.services-container {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 100%;
+  height: 100%;
+}
+.services-card-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  height: 100%;
+  /* background-color: rgb(226, 224, 234); */
+  border-radius: 5px;
+  padding: 10px;
+  gap: 50px;
+}
+.services-content-1 {
+  text-align: justify;
+  padding: 10px;
+  height: 150px;
+  width: 300px;
+  /* background-image: url("/public/services-1.png"); */
+  background-size: cover;
+  border: 1px solid rgb(10, 10, 10);
+  overflow: hidden;
+  position: relative;
+  transition: 0.5s;
+}
+.services-content-1:hover {
+  z-index: 1;
+  transform: scale(1.25);
+  box-shadow: 0 25 40px rgba(0, 0, 0, 0.5);
+  border:none !important;
+  box-shadow: 15px 20px 20px rgb(0, 0,0,.4),
+                inset 4px 4px 10px aliceblue;
+}
+.services-content-1 .imgbx-service {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.services-content-1 .imgbx-service::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  background-color: linear-gradient(170deg,#f00,#000);
+  mix-blend-mode: multiply;
+  opacity: 0;
+  transition: 0.5s;
+}
+.services-content-1:hover .imgbx-service::before{
+    opacity: 1;
+}
+.services-content-1 .imgbx-service img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding-top: 30px;
+}
+
+.services-card-2 .services-content-1 .services-content-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: flex;
+    padding: 20px;
+    align-items: flex-end;
+}
+.services-card-2 .services-content-1 .services-content-text h6{
+    transition: 0.5s;
+    transform: translateY(200px);
+    background-color: #0f5b64;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    border-radius:5px;
+}
+.services-card-2 .services-content-1:hover .services-content-text h6{
+    transform: translateY(15px);
+}
+
+.services-content-2 {
+  text-align: justify;
+  padding: 10px;
+  height: 150px;
+  width: 300px;
+  /* background-image: url("/public/services-2.png"); */
+  background-size: cover;
+  border: 1px solid black;
+}
+.services-content-3 {
+  text-align: justify;
+  padding: 10px;
+  height: 150px;
+  width: 300px;
+  /* background-image: url("/public/services-3.png"); */
+  background-size: cover;
+  border: 1px solid black;
+}
+.services-content-4 {
+  text-align: justify;
+  padding: 10px;
+  height: 150px;
+  width: 300px;
+  /* background-image: url("/public/services-4.png"); */
+  background-size: cover;
+  border: 1px solid black;
+}
+.services-content-1 img,
+.services-content-2 img,
+.services-content-3 img,
+.services-content-4 img {
+  height: 100px;
+  width: 100%;
+  object-fit: cover;
+  /* border-radius: 50%; */
+}
+.services-content-1 h1,
+.services-content-2 h1,
+.services-content-3 h1,
+.services-content-4 h1 {
+  font-size: 20px;
+  text-align: center;
+  background-color: #0f5b64;
+  color: white;
+  /* border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px; */
+}
+.services-content-1 h6{
+    color: white;
+}
+
+
+
+

@@ -1,0 +1,45 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --header-height: 60px;
+  --z-fixed: 100;
+ 
+}
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width:768px) {
+  :root{
+      margin-top: -20px;
+  }
+}
+
+
+
+

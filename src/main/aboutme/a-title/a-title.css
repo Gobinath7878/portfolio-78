@@ -1,0 +1,21 @@
+.about-title{  
+    display: flex;
+    flex-wrap:wrap ;
+    align-items:center;
+    color: transparent;
+    -webkit-text-stroke: 1.5px #040404;
+    font-size: 50px;
+    padding-top: 100px;
+    margin-bottom: 30px;
+} 
+.about-title span{
+    color: rgb(33, 29, 28);
+    -webkit-text-stroke: 1px #0b0a0a;   
+} 
+
+@media screen and (max-width:767px) {
+ .about-title{
+    padding-top:40px;
+    
+ }
+}

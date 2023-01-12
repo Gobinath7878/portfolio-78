@@ -1,0 +1,25 @@
+.services-title{  
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap ;
+    align-items: flex-start;
+    color: transparent;
+    -webkit-text-stroke: 1.5px #040404;
+    font-size: 50px;
+    padding-top: 100px;
+    margin-bottom: 30px;
+} 
+.services-title span{
+    color: rgb(33, 29, 28);
+    -webkit-text-stroke: 1px #0b0a0a;  
+}  
+.services i{
+    font-size: 45px;
+    padding: 5px;
+}
+/* hover */
+@media screen and (max-width:768px) {
+    .services-title{
+        padding-top:10px;
+    }
+}

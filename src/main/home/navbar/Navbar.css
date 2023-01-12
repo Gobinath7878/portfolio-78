@@ -1,0 +1,115 @@
+.header{
+    width: 100%;
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid  rgb(186, 183, 183);
+    background-color: rgb(246, 246, 246);
+}
+
+.nav{
+    height: calc(var(--header-height)+24px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 16px;
+}
+.nav-logo{
+    font-size: 20px;
+    margin-left: 50px;
+}
+.nav-logo,
+.nav-toggle{
+    color: rgb(29, 29, 22);
+    font-weight: 800;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction:row; 
+    column-gap: 32px;
+    margin-right: 50px;
+}
+.nav-link{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ color: rgb(34, 32, 32) !important;
+}
+.nav-link:hover{
+    color:rgb(235, 90, 12) !important;
+    /* border-bottom: 1px solid rgb(247, 247, 247); */
+    /* border: 1px solid black; */
+}
+.nav-logo{
+    display:-webkit-inline-box;
+}
+.nav-icon,
+.nav-close,
+.nav-toggle{
+    display:none !important;
+}
+
+@media screen and (max-width:768px) {
+
+    .header{
+        top: initial;
+        bottom:0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .nav{
+        height: var(--header-height);
+    }
+     .nav-menu{
+        position: fixed;
+        bottom:-100%;
+        left: 0;
+        width: 100%;
+        padding:32px 24px 64px;
+        box-shadow: 0 -1px 4px rgba(0,0,0,0.15);
+        border-radius: 24px 24px 0 0;
+        transition: .3s;
+        background-color: rgb(251, 244, 244);
+     }
+    .show-menu{
+        bottom: 0;
+    }
+     .nav-list{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 32px;
+     }
+     
+     .nav-close{
+        position: absolute;
+        right: 44px;
+        bottom: 2px;
+        cursor: pointer;
+        color: rgb(255, 47, 0);
+     }
+
+     .nav-toggle{
+        margin-top: 13px;
+        padding: 20px;
+        cursor: pointer;
+     }
+
+    .nav-icon,
+    .nav-close,
+    .nav-toggle{
+       display:block !important;
+     }
+     
+
+}
+
+@media screen and (max-width: 350px) {
+
+    .nav-menu{
+        padding: 32px 4px 64px;
+    }
+}

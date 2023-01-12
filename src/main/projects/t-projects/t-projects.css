@@ -1,0 +1,29 @@
+.projects-title{  
+    /* display: flex;
+    flex-wrap:wrap ;
+    align-items: center;
+    color: transparent;
+    -webkit-text-stroke: 1.5px #040404;
+    font-size: 50px;
+    padding-top: 60px;
+    margin-bottom: 30px; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap ;
+    align-items: flex-start;
+    color: transparent;
+    -webkit-text-stroke: 1.5px #040404;
+    font-size: 50px;
+    padding-top: 60px;
+    margin-bottom: 30px;
+} 
+.projects-title span{
+    color: rgb(33, 29, 28);
+    -webkit-text-stroke: 1px #0b0a0a;   
+}  
+
+@media screen and (max-width:768px) {
+    .projects-title{
+        padding-top:0;
+    }
+}

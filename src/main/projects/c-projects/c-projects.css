@@ -1,0 +1,70 @@
+/* containers */
+.container-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  gap: 20px;
+}
+
+.container-3 h4 {
+  color: rgb(5, 5, 5);
+  text-align: center;
+  padding: 5px;
+  border-bottom: 1px solid rgb(174, 169, 169);
+  margin-bottom: 5px;
+}
+.container-3 .box {
+  position: relative;
+  width: 250px;
+  height: 325px;
+  margin: 10px;
+  /* border: 1px solid black; */
+  border-top: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: rgb(227, 228, 230);
+  box-shadow: 10px 10px 10px rgb(0, 0,0,.4),
+                inset 14px 14px 20px rgb(227, 228, 230);
+}
+.img-container {
+  position: absolute;
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.img-container img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  resize: both;
+  margin-top: -28px;
+  box-shadow: 1px 10px 20px rgb(0, 0,0,.4),
+                inset 4px 4px 10px aliceblue;
+}
+.pro-btn {
+  background-color: rgb(25, 25, 29);
+  margin: 5px;
+  padding: 7px;
+  font-size: 12px;
+  height: 35px;
+  width: 100px;
+  color: white !important;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 500;
+  
+}
+.pro-btn:hover {
+  color: rgb(25, 25, 29) !important;
+  background-color: bisque !important;
+  font-weight: 500;
+}

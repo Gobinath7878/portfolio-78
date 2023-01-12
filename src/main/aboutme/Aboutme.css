@@ -1,0 +1,18 @@
+.aboutme{
+    height: 100%;
+    /* background-color: #FFEBCC; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url("/public/a-bg.png"); */
+    object-fit: cover;
+    background-position: center;
+    padding-bottom: 30px;
+}
+@media screen and (max-width:767px) {
+  .aboutme{
+    margin-top: 50px;
+  }
+   }

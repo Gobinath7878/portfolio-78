@@ -1,0 +1,11 @@
+.contactme{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    object-fit: cover;
+    background-size: cover;
+    flex-direction: column;
+    padding-top: 20px;
+}

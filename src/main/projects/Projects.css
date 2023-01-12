@@ -1,0 +1,12 @@
+.projects{
+    height: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    flex-wrap:wrap;
+    /* background-image: url("/public/a-bg.png"); */
+    object-fit: cover;
+    background-position: center;
+}
