@@ -5,7 +5,7 @@
     left: 0;
     z-index: var(--z-fixed);
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     border-bottom: 1px solid  rgb(186, 183, 183);
     background-color: rgb(246, 246, 246);
 }
