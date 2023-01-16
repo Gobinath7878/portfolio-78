@@ -102,12 +102,18 @@ input {
     .c-card-form{
         padding-right: 50px !important;
     }
+    .contact-content img{
+        width:100% !important;
+    }
 }
 
 @media screen and (max-width:444px) {
     .contact-section{
         padding-bottom:0;
-        margin-bottom: 50px;
+        /* margin-bottom: 50px; */
+    }
+    .contact-content img{
+        width:400px !important;
     }
     .c-card-form{
         padding-right: 50px !important;

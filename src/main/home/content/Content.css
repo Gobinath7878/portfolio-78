@@ -217,7 +217,7 @@
   background: #222;
   transition: 0.5s;
   z-index: 1;
-  background-image: url('/src/assests/home/profile-4.jpg');
+  background-image: url('/src/assests/home/profile-78-removebg-preview-2.png');
   background-repeat: none;
   background-size: cover;
   background-position: center; 
@@ -274,6 +274,10 @@
     .home-img{
         margin-bottom: 30px;
     }
+    .home-data{
+        margin-left: 100px;
+        padding-top: 20px;
+       }
 }
 
 @media screen and (max-width:492px ) {
@@ -300,6 +304,8 @@
    }
    .home-data{
     width: 250px;
+    padding-top: 20px;
+    margin-left: 25px;
    }
    .home-title{
     font-size: 35px;

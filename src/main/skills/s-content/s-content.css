@@ -11,9 +11,11 @@
     width: 300px;
     height: 300px;
     overflow: hidden;
-    transform: rotate(-2deg);
+    transform: rotate(-1deg);
     border-radius: 10px;
     border:2px solid rgb(22, 22, 20);
+    box-shadow: 10px 10px 10px rgb(0, 0,0,.4),
+                inset 14px 14px 20px rgb(227, 228, 230);
 }
 .s-content-container  .s-content-card:hover{
     position: relative;
@@ -21,6 +23,7 @@
     height: 300px;
     overflow: hidden;
     transform: rotate(-15deg);
+    
     /* border: none !important;   */
 }
 

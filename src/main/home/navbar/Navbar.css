@@ -53,6 +53,12 @@
     display:none !important;
 }
 
+@media screen and (max-width: 980px) {
+
+    .nav-menu{
+        margin-right: 25px !important;
+    }
+}
 @media screen and (max-width:768px) {
 
     .header{

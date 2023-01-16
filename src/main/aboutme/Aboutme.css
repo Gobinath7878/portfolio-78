@@ -1,6 +1,6 @@
 .aboutme{
     height: 100%;
-    /* background-color: #FFEBCC; */
+    /* background-color: #e3e3e1; */
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -13,6 +13,6 @@
 }
 @media screen and (max-width:767px) {
   .aboutme{
-    margin-top: 50px;
+    margin-top: 30px;
   }
    }

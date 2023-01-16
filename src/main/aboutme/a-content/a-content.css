@@ -1,17 +1,18 @@
 .a-container{
     display: flex;
     align-items: center;
-    justify-content:space-around;
-    flex-wrap: wrap;
+    justify-content:center;
+    flex-wrap: wrap !important;
     gap: 30px;
     margin: 0;
     padding-bottom: 20px;
+    width: 100%;
 }
 .a-img-card{
-    height:350px;
-    width:450px;
+    height:360px;
+    width:550px;
     object-fit: cover;
-    background-image: url(/src/assests/about/about-bcard-bg.jpg);
+    background-image: url(/src/assests/about/profile-6.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 5px;
@@ -31,18 +32,20 @@
     padding: 15px;
     font-size: 13px;
     font-weight: 700;
-    color: black;
+    color: rgb(56, 55, 55);
     border: 1px  solid ;
-    background-image: url("https://img.freepik.com/free-vector/vintage-ornamental-flowers-background_52683-28040.jpg?w=740&t=st=1673019100~exp=1673019700~hmac=427d2ff055f2dfd1384b83a557e88f6168dbb540e6a894b370c096cc20c06bd6");
+    /* background-image: url("https://img.freepik.com/free-vector/vintage-ornamental-flowers-background_52683-28040.jpg?w=740&t=st=1673019100~exp=1673019700~hmac=427d2ff055f2dfd1384b83a557e88f6168dbb540e6a894b370c096cc20c06bd6"); */
+    background-image: url("https://i.pinimg.com/originals/85/ec/df/85ecdf1c3611ecc9b7fa85282d9526e0.jpg");
     background-size: cover;
     border-radius: 10px;
 }
 .a-para-content{
-    background-color: #f8faf7;
+    background-color: #1c242c;
+    color: white;
 }
 .a-para-content:hover{
     box-shadow: 25px 20px 20px rgb(0, 0,0,.4),
-                inset 4px 4px 10px #f8faf7 ;
+                inset 4px 4px 10px #1c242c ;
     transition: .4s;
 }
 .msg-text{
@@ -50,13 +53,14 @@
     color: #787776;
 }
 .msg-flex{
-    background-color:#f8faf7 ;
+    background-color: #1c242c;
+    /* background-color: #292f26 !important; */
     padding: 10px;
     border-radius: 15px;
     border-top-left-radius:0px !important;
     margin-bottom: 4px;
     box-shadow: 25px 20px 20px rgb(0, 0,0,.4),
-                inset 4px 4px 10px #f8faf7 ;
+                inset 4px 4px 10px #1c242c;
     transition: .4s;
 }
 
@@ -73,7 +77,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    color: black !important;
+    color: rgb(255, 251, 251) !important;
     overflow: hidden;
     border-right: 1px solid black;
     animation: type 8s steps(30) infinite;
@@ -93,7 +97,7 @@
 
 /* receiving text */
 .receiving-text>h3{
-background-color: #dcf8c6;
+background-color: #075e54 !important;
 padding: 5px;
 margin: 3px;
 display: flex;
@@ -105,6 +109,7 @@ margin-left: 235px;
 margin-bottom: 10px;
 border-radius: 15px;
 border-top-right-radius:0px !important;
+color: white;
 }
 .msg-text-send{
     font-size: 12px;
@@ -126,10 +131,13 @@ border-top-right-radius:0px !important;
     height: 35px;
     padding: 15px;
     border-radius: 30px;
+    background-color: #1c242c;
+    color: white;
+    width: 100%;
 }
 .msg-send i{
     font-size: 20px;
-    background-color: #075E54;
+    background-color: #128c7e;
     color: white;
     width: 45px;
     height: 44px;
@@ -140,16 +148,16 @@ border-top-right-radius:0px !important;
     padding-top: 12px;
 }
 .msg-send i:hover{
-    background-color: #128c7e;
+    background-color: #0a5f55;
 }
 .a-para-card small{
-    background-color: black;
+    background-color: rgb(62, 58, 58);
     margin-top: -15px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   overflow: hidden;
-   width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 250px;
    margin-left: 100px;
    border-radius: 6px;
    border-top-right-radius: 0px !important;
@@ -158,14 +166,20 @@ border-top-right-radius:0px !important;
    color: rgb(192, 188, 188);
    font-size: 10px;
 }
-
+@media screen and (max-width:958px) {
+    .a-img-card{
+        height:300px;
+        width: 500px;
+        background-size: contain;
+    }
+}
 @media screen and (max-width:535px) {
     .a-container{
         margin: 20px;
         gap: 10px;
     }
     .a-img-card{
-        height:350px;
+        height:250px;
         width: 400px;
         background-size: contain;
     }
@@ -191,8 +205,8 @@ border-top-right-radius:0px !important;
         margin: 20px;
     }
     .a-img-card{
-        height:250px;
-        width: 300px;
+        height:180px;
+        width: 350px;
         background-size: contain;
     }
     .a-para-card{
@@ -223,15 +237,17 @@ border-top-right-radius:0px !important;
     }
     .a-para-card{
         height: 375px;
-        width: 300px;
+        width: 275px;
     }
     .a-para-card small{
-        margin-left: 12px;
+        margin-left: 70px;
+        width: 50%;
+        text-align: center;
     }
     .receiving-text h3{
      font-size: 9px;
      width: 180px;
-     margin-left: 100px;
+     margin-left: 60px;
     }
     .a-para-content{
         font-size: 10px;
