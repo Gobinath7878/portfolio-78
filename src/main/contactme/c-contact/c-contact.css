@@ -99,4 +99,18 @@ input {
         padding-bottom:0;
         margin-bottom: 50px;
     }
+    .c-card-form{
+        padding-right: 50px !important;
+    }
+}
+
+@media screen and (max-width:444px) {
+    .contact-section{
+        padding-bottom:0;
+        margin-bottom: 50px;
+    }
+    .c-card-form{
+        padding-right: 50px !important;
+        padding-top: 0px;
+    }
 }

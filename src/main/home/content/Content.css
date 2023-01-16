@@ -259,6 +259,9 @@
     .hireme-btn{
         height: 40px;
     }
+    .nav-list{
+        margin: 0px !important;
+    }
 }
 @media screen and (max-width:795px) {
     .home-section{
@@ -276,7 +279,9 @@
 @media screen and (max-width:492px ) {
    .home-content{
     /* grid-template-columns:0.5fr 3fr; */
+    display: flex;
     align-items: center;
+    justify-content: center;
     padding-top:60px;
    }
    .home-img{
@@ -327,14 +332,16 @@
 @media screen and (max-width:387px ) {
     .home-content{
      /* grid-template-columns:0.5fr 3fr; */
+     display: flex;
      align-items: center;
-     padding-top:50px;
+     justify-content: center;
+     padding-top:30px !important;
     }
     .home-img{
      height: 216px;
      width: 225px;
      object-fit: contain;
-     padding: 0;
+     padding: 0 !important;
     }
     .card{
      height: 216px;
@@ -347,11 +354,27 @@
     }
     .home-data{
      font-size: 10px;
-     width: 250px;
+     width: 225px;
+     padding-top: 20px;
+     margin-left: 25px;
+     height: 100% !important;
+    }
+    .home-btn-flex{
+        height: 100%;
+        width: 100%;
+        gap: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 !important;
+        /* padding-right: 20px !important; */
     }
     .hireme-btn{
-    margin-top: 15px;
-    padding-bottom: 25px;
+    margin-top: 15px !important;
+    padding-bottom: 25px !important;
+    padding: 0;
+    margin: 0;
+    height: 100%;
     }
     #hiremebtn{
         width: 50%;
@@ -360,6 +383,10 @@
     #resumebtn{
         width: 50%;
         height: 100%;
+    }
+    .hireme-btn::after,
+    .hireme-btn::before{
+       width: 60%;
     }
     .nav-mail{
      font-size: 7px;
@@ -392,9 +419,14 @@
        .hireme-btn{
         margin-top: 5px;
         padding-bottom: 35px;
+        padding-right: 20px;
         }
         .home-title{
             font-size: 25px;
+           }
+           .hireme-btn::after,
+           .hireme-btn::before{
+              width: 45%;
            }
  }
 
@@ -420,6 +452,11 @@
             font-size: 15px !important;
             height: 100%;
             width: 100%;
+            padding-right:30px;
+        }
+        .hireme-btn::after,
+        .hireme-btn::before{
+           width: 45%;
         }
  }
 
@@ -445,6 +482,10 @@
             font-size: 15px !important;
             height: 50%;
             width: 50%;
+        }
+        .hireme-btn::after,
+        .hireme-btn::before{
+           width: 50%;
         }
  }
  @media screen and (max-width:324px) {
