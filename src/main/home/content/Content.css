@@ -223,9 +223,9 @@
   background-position: center; 
   background-repeat: no-repeat; 
   }
-  .card .imgBx:hover{
+  /* .card .imgBx:hover{
     background-image: url(/src/assests/home/profile-5.jpg);
-  }
+  } */
   
 @media screen and (max-width:965px) {
     /* .home-content{

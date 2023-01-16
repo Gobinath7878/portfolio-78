@@ -44,7 +44,7 @@
     color: white;
 }
 .a-para-content:hover{
-    box-shadow: 25px 20px 20px rgb(0, 0,0,.4),
+    box-shadow: 55px 20px 40px rgb(0, 0,0,.4),
                 inset 4px 4px 10px #1c242c ;
     transition: .4s;
 }
@@ -151,7 +151,7 @@ color: white;
     background-color: #0a5f55;
 }
 .a-para-card small{
-    background-color: rgb(62, 58, 58);
+    background-color: rgb(52, 50, 50);
     margin-top: -15px;
     display: flex;
     align-items: center;

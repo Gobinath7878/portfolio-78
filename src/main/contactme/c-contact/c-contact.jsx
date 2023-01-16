@@ -5,9 +5,10 @@ import Nav from "react-bootstrap/Nav";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import DescriptionIcon from '@mui/icons-material/Description';
+import DoneAllIcon from '@mui/icons-material/DoneAll';
 
 const Result = () => {
-  return <p>Your Message has been Sent Successfully.</p>;
+  return <p><DoneAllIcon sx={{fontSize:"30px",marginBottom:"-8px",color:"green"}}/>Your Message has been Sent Successfully.</p>;
 };
 export const ContactForm = () => {
   const form = useRef();
@@ -35,7 +36,7 @@ export const ContactForm = () => {
   };
   setTimeout(() => {
     showResult(false);
-  }, 4000);
+  },4000);
 
   return (
     <div className="contact-section">
