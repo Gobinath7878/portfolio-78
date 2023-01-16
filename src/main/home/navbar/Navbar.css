@@ -15,6 +15,7 @@
     justify-content: space-between;
     align-items: center;
     column-gap: 16px;
+    height: 46px !important;
 }
 .nav-logo{
     font-size: 20px;
