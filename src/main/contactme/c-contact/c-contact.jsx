@@ -57,7 +57,7 @@ export const ContactForm = () => {
               <h4>Linkedin</h4>
             </Nav.Link>
 
-            <Nav.Link href="https://drive.google.com/file/d/1wLz8gHzibOdcQwo7R8LfamMnpQwYPyYe/view?usp=sharing" className="nav-github" id="hover-link">
+            <Nav.Link href="https://drive.google.com/file/d/12fD6qvHF9jcymrbWuCv2lT_On9pxaHcT/view?usp=sharing" className="nav-github" id="hover-link">
               <DescriptionIcon sx={{ fontSize: "30px", marginBottom: "35px" }} />
               <h4>Resume</h4>
             </Nav.Link>
