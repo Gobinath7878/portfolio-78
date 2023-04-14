@@ -1,6 +1,12 @@
 import React from "react";
 import "./c-projects.css";
 import Nav from "react-bootstrap/Nav";
+import Drinksbuddy from '../../../assests/about/chegostore-project-Img.png';
+import Chatapp from '../../../assests/about/chatapp-project-Img.png'
+import Tourapp from '../../../assests/about/tourapp-project-Img.png'
+import Elitemail from '../../../assests/about/elitemailpro-project-Img.png'
+
+
 
 const ProjectsContent = () => {
   return (
@@ -10,7 +16,7 @@ const ProjectsContent = () => {
         <div className="box">
           <div className="img-container">
             <img
-              src="https://drive.google.com/file/d/1onmjkbkZ9_fizuScY3KcAAQgQQG7IAO_/view?usp=sharing"
+              src={Drinksbuddy}
               alt="loading"
             />
             <h4>Drinks Buddy</h4>
@@ -22,7 +28,7 @@ const ProjectsContent = () => {
         <div className="box">
           <div className="img-container">
             <img
-              src="https://drive.google.com/file/d/1zA--pE5fvTw7dH20vlaLI1WJXWoNz6O-/view?usp=sharing"
+              src={Chatapp}
               alt="loading"
             />
             <h4>Chat App</h4>
@@ -34,7 +40,7 @@ const ProjectsContent = () => {
         <div className="box">
           <div className="img-container">
             <img
-              src="https://img.freepik.com/free-vector/people-planning-trip-around-world-they-are-pointing-map-using-app-mobile-phone-travel-vacations-concept_1150-51089.jpg?w=900&t=st=1673166477~exp=1673167077~hmac=ce2df0e500d64e25e6986d35d08b9c45ebad555ef6b9950bf77ae442d2c7564c"
+              src={Tourapp}
               alt="loading"
             />
             <h4>Tour App</h4>
@@ -47,7 +53,7 @@ const ProjectsContent = () => {
         <div className="box">
           <div className="img-container">
             <img
-              src="https://img.freepik.com/free-vector/music-mobile-phone-app_23-2148827274.jpg?w=740&t=st=1673166592~exp=1673167192~hmac=b28bf4aac86eec46ff6bb91666f17db74e73f34d03a4b82e87f4724357e9016c"
+              src={Elitemail}
               alt="loading"
             />
             <h4>EliteMail Pro</h4>
