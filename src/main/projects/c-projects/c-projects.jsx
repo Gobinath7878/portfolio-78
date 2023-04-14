@@ -10,7 +10,7 @@ const ProjectsContent = () => {
         <div className="box">
           <div className="img-container">
             <img
-              src="https://img.freepik.com/free-photo/coffee-latte-with-cookies-coffiee-beans_141793-17440.jpg?w=740&t=st=1673166089~exp=1673166689~hmac=ee8f3043480a1939b9b85040cbc5899845a0fc72fdd1d5052eb3f53f0ec9ff2f"
+              src="https://drive.google.com/file/d/1onmjkbkZ9_fizuScY3KcAAQgQQG7IAO_/view?usp=sharing"
               alt="loading"
             />
             <h4>Drinks Buddy</h4>
@@ -22,7 +22,7 @@ const ProjectsContent = () => {
         <div className="box">
           <div className="img-container">
             <img
-              src="https://img.freepik.com/free-vector/cinema-design-concept-with-set-square-compositions-with-female-characters-reels-camera-with-smartphone-illustration_1284-57177.jpg?w=826&t=st=1673166355~exp=1673166955~hmac=dadbd5ce76f1ee1840dee78dc66452fc91ffc461fd586c63d1bd2838360fcb12"
+              src="https://drive.google.com/file/d/1zA--pE5fvTw7dH20vlaLI1WJXWoNz6O-/view?usp=sharing"
               alt="loading"
             />
             <h4>Chat App</h4>
