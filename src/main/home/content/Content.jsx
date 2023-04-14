@@ -69,7 +69,7 @@ const Content = () => {
                 Hire Me
               </Nav.Link>
               <Nav.Link
-                href="https://drive.google.com/file/d/12fD6qvHF9jcymrbWuCv2lT_On9pxaHcT/view?usp=sharing"
+                href="https://drive.google.com/file/d/1mqGqCscFxBwHqkIyLnMUZ6Nj-A6XB3iQ/view?usp=sharing"
                 className="hireme-btn" id="resumebtn"
               >
                 Resume
