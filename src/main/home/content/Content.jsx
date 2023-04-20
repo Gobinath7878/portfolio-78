@@ -71,6 +71,7 @@ const Content = () => {
               <a
                 href="https://drive.google.com/file/d/1mqGqCscFxBwHqkIyLnMUZ6Nj-A6XB3iQ/view?usp=sharing"
                 className="hireme-btn" id="resumebtn"
+target="_blank" rel="noreferrer"
               >
                 Resume
               </a>
