@@ -58,7 +58,7 @@ const ProjectsContent = () => {
             <h4>EliteMail Pro</h4>
             <a href="https://bulk-email-tool.netlify.app" target="_blank" rel="noreferrer" className="pro-btn">Live site</a>
             <a href="https://github.com/Gobinath7878/Bulk-Email-Tool-Frontend" target="_blank" rel="noreferrer" className="pro-btn">Frond-End</a>
-            a href="https://github.com/Gobinath7878/Bulk-Email-Tool-Backend" target="_blank" rel="noreferrer" className="pro-btn">Back-End</a>
+            <a href="https://github.com/Gobinath7878/Bulk-Email-Tool-Backend" target="_blank" rel="noreferrer" className="pro-btn">Back-End</a>
           </div>
         </div>
       </div>
