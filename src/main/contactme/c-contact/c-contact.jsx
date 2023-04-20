@@ -1,7 +1,6 @@
 import React, { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./c-contact.css";
-import Nav from "react-bootstrap/Nav";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import DescriptionIcon from '@mui/icons-material/Description';
@@ -47,20 +46,20 @@ export const ContactForm = () => {
         />
          <div className="group-link-contact">
             
-            <Nav.Link href="https://github.com/Gobinath7878" className="nav-github" id="hover-link">
+            <a href="https://github.com/Gobinath7878" target="_blank" rel="noreferrer" className="nav-github" id="hover-link">
               <GitHubIcon sx={{ fontSize: "30px", marginBottom: "35px" }} />
               <h4>Github</h4>
-            </Nav.Link>
+            </a>
 
-            <Nav.Link href="https://www.linkedin.com/in/gobinath-s-466466250/" className="nav-github" id="hover-link">
+            <a href="https://www.linkedin.com/in/gobinath-s-466466250/" target="_blank" rel="noreferrer" className="nav-github" id="hover-link">
               <LinkedInIcon sx={{ fontSize: "30px", marginBottom: "35px" }} />
               <h4>Linkedin</h4>
-            </Nav.Link>
+            </a>
 
-            <Nav.Link href="https://drive.google.com/file/d/12fD6qvHF9jcymrbWuCv2lT_On9pxaHcT/view?usp=sharing" className="nav-github" id="hover-link">
+            <a href="https://drive.google.com/file/d/12fD6qvHF9jcymrbWuCv2lT_On9pxaHcT/view?usp=sharing" target="_blank" rel="noreferrer" className="nav-github" id="hover-link">
               <DescriptionIcon sx={{ fontSize: "30px", marginBottom: "35px" }} />
               <h4>Resume</h4>
-            </Nav.Link>
+            </a>
           </div>
       </div>
       <div className="c-card-form">
