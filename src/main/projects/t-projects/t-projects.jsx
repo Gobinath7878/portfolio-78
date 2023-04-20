@@ -9,7 +9,7 @@ const ProjectsTitle = () => {
     <div className='projects-title'> 
      <h1 className="home-title"><span>pro</span>j<span>ects</span><BubbleChartIcon sx={{color:"black",fontSize:"45px"}}/></h1>
     </div>
-    <h4 className='credentials-text'>Admin Email- chegoa@gmail.com & password- chegoa</h4>
+    <h5 className='credentials-text'>User EMail:user@gmail.com & password:user78 || Admin Email- chegoa@gmail.com & password- chegoa</h5>
     </div>
     )
 }
