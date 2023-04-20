@@ -29,15 +29,15 @@ const Content = () => {
               </div>
             </div>
             <div className="group-link-home">
-            <Nav.Link href="https://github.com/Gobinath7878" className="nav-github" id="hover-link">
+            <a href="https://github.com/Gobinath7878" target="_blank" rel="noreferrer" className="nav-github" id="hover-link">
               <GitHubIcon sx={{ fontSize: "30px", marginBottom: "35px" }} />
               <h4>Github</h4>
-            </Nav.Link>
+            </a>
 
-            <Nav.Link href="https://www.linkedin.com/in/gobinath-s-466466250/" className="nav-github" id="hover-link">
+            <a href="https://www.linkedin.com/in/gobinath-s-466466250/" target="_blank" rel="noreferrer" className="nav-github" id="hover-link">
               <LinkedInIcon sx={{ fontSize: "30px", marginBottom: "35px" }} />
               <h4>Linkedin</h4>
-            </Nav.Link>
+            </a>
 
             <Nav.Link href="#contactme" className="nav-github" id="hover-link">
               <EmailIcon sx={{ fontSize: "30px", marginBottom: "35px" }} />
@@ -68,12 +68,12 @@ const Content = () => {
               <Nav.Link href="#contactme" className="hireme-btn" id="hiremebtn">
                 Hire Me
               </Nav.Link>
-              <Nav.Link
+              <a
                 href="https://drive.google.com/file/d/1mqGqCscFxBwHqkIyLnMUZ6Nj-A6XB3iQ/view?usp=sharing"
                 className="hireme-btn" id="resumebtn"
               >
                 Resume
-              </Nav.Link>
+              </a>
             </div>
           </div>
         </div>
