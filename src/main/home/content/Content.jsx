@@ -29,18 +29,18 @@ const Content = () => {
               </div>
             </div>
             <div className="group-link-home">
-            <a href="https://github.com/Gobinath7878" target="_blank" rel="noreferrer" className="nav-github" id="hover-link">
-              <GitHubIcon sx={{ fontSize: "30px", marginBottom: "35px" }} />
+            <a href="https://github.com/Gobinath7878" target="_blank" rel="noreferrer" className="nav-github nav-link" id="hover-link">
+              <GitHubIcon sx={{ fontSize: "30px", marginBottom: "35px",color:"black" }} />
               <h4>Github</h4>
             </a>
 
-            <a href="https://www.linkedin.com/in/gobinath-s-466466250/" target="_blank" rel="noreferrer" className="nav-github" id="hover-link">
-              <LinkedInIcon sx={{ fontSize: "30px", marginBottom: "35px" }} />
+            <a href="https://www.linkedin.com/in/gobinath-s-466466250/" target="_blank" rel="noreferrer" className="nav-github nav-link" id="hover-link">
+              <LinkedInIcon sx={{ fontSize: "30px", marginBottom: "35px",color:"black" }} />
               <h4>Linkedin</h4>
             </a>
 
             <Nav.Link href="#contactme" className="nav-github" id="hover-link">
-              <EmailIcon sx={{ fontSize: "30px", marginBottom: "35px" }} />
+              <EmailIcon sx={{ fontSize: "30px", marginBottom: "35px",color:"black" }} />
               <h4>Email</h4>
             </Nav.Link>
           </div>
