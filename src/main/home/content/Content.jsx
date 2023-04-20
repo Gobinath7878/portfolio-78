@@ -70,7 +70,7 @@ const Content = () => {
               </Nav.Link>
               <a
                 href="https://drive.google.com/file/d/1mqGqCscFxBwHqkIyLnMUZ6Nj-A6XB3iQ/view?usp=sharing"
-                className="hireme-btn" id="resumebtn"
+                className="hireme-btn nav-link" id="resumebtn"
 target="_blank" rel="noreferrer"
               >
                 Resume
